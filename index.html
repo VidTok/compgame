@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Перевір свою інтуіцію!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="particles-js"></div>
+
+    <div class="main">
+
+        <div class="headingBox">
+            <h1 class="heading">З якої спроби ти зможеш перемогти?</h1>
+        </div>
+    
+        <div class="inputContainer">
+            <div class="inputBox">
+                <h3 class="inputHeading">Введи число від 1 до 20:</h3>
+                <br>
+                <input type="text" placeholder="Число..." id="inputField">
+                <br>
+                <button id="inputBtn">Перевірити</button>
+            </div>
+        </div>
+
+        <div class="resultAnimation">
+
+            <div class="smallHeadingBox">
+                <h2 class="smallHeading">Який твій результат?</h2>
+            </div>
+        
+            <div class="resultBox">
+                    <button id="resultBtn1" class="resultBtn">з 1-5 спроби</button>
+                    <button id="resultBtn2" class="resultBtn">з 6-10 спроби</button>
+                    <button id="resultBtn3" class="resultBtn">з 11-15 спроби</button>
+                    <button id="resultBtn4" class="resultBtn">з 16-20 спроби</button>
+            </div>
+
+        </div>
+    
+        <br>
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
