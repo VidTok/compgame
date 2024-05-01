@@ -30,5 +30,5 @@ This game was created during the study of the JavaScript language.
 
 Vitalina - (https://vitalina-tsyganok-cv-portfolio.glitch.me)
 
-Project Link: (https://todolist-organizer-online.netlify.app/](https://play-with-computer-game.netlify.app/)
+Project Link: (https://play-with-computer-game.netlify.app/)
 
